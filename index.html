@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score App</title>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="reset">
+                <button class="reset btn" onclick="reset()">Reset</button>
+            </div>
+            <div class="container">
+            <div class="player-1">
+                <h1>HOME</h1>
+                <p class="score-card" id="p1">0</p>
+                <div id="button-container">
+                    <button class="btn" onclick="p1addone()">+1</button>
+                    <button class="btn" onclick="p1addtwo()">+2</button>
+                    <button class="btn" onclick="p1addthree()">+3</button>
+                </div>
+            </div>
+            <div class="player-2">
+                <h1>GUEST</h1>
+                <p class="score-card" id="p2">0</p>
+                <div id="button-container">
+                    <button class="btn" onclick="p2addone()">+1</button>
+                    <button class="btn" onclick="p2addtwo()">+2</button>
+                    <button class="btn" onclick="p2addthree()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+           
+        </div>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

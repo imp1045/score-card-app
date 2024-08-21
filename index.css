@@ -1,0 +1,69 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    text-align: center;
+    background-color:#9AABD8;
+
+    
+}
+.main-container{
+    background-color: #1B244A;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    color: white;
+    max-width: 70%;
+    margin:0 auto;
+}
+.container{
+    /* border:5px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.container >div{
+    /* border:3px solid brown; */
+}
+
+.score-card{
+    background-color: black;
+    padding: 1rem;
+    color: #F94F6D;
+    font-size: 5rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top:0 ;
+    margin-bottom: 1.5rem;
+}
+
+#p1{
+    padding-inline: 3.5rem;
+}
+#button-container{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin-top:0;
+}
+.btn{
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+.reset{
+    padding: rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
